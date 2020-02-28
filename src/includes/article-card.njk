@@ -50,7 +50,7 @@
                     {% blob author.name %}"
                 src="{{ author.src or '/images/author--placeholder.jpg' }}"
                 width="80" height="74"
-                alt="">
+                alt="{{ author.name }}">
         {% endif %}
     {% endfor %}
 </article>
